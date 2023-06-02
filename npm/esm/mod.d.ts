@@ -1,0 +1,11 @@
+export type Runtime = "deno" | "node" | "bun" | "browser" | "unknown";
+export declare const IS_DENO: boolean;
+export declare const IS_NODE: boolean;
+export declare const IS_BROWSER: boolean;
+export declare const IS_BUN: boolean;
+export declare const IS_NODE_LIKE: boolean;
+export declare const RUNTIME: Runtime;
+export declare const RUNTIME_VERSION: string;
+export declare const VERSIONS: Record<string, string>;
+export declare const DENO_INTERNALS: Record<string, unknown>;
+export declare const GLOBALS: any;
